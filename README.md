@@ -1,3 +1,25 @@
+# TGH TODOs:
+- [ ] Setup Stack Template TDD
+  - [x] ID npx entry point
+    - `npx create-remix ...`
+    - [x] Avoid remix prompts with flags
+      - `npx create-remix ps-lp-target-0001 --template ThomasGHenry/ps-lp-target --typescript --install`
+- [ ] Hook into template execution
+  - [ ] Lock in npx version `npx create-remix@xxxx`
+    - remix.init/index.js (inside target)
+- [ ] Check domain name availability (CDK)
+- [ ] Check domain name price (CDK)
+- [ ] Check Repo availability (CDK)
+- [ ] Create Repo (CDK)
+- [ ] Create Amazon account (CDK)
+- [ ] Create domain name (CDK)
+- [ ] Create aws user (CDK)
+- [ ] Get AWS Keys (CDK)
+- [ ] Create 3rd party accounts (GA4, etc)
+- [ ] populate templates with 3rd party IDs
+  - env vars?
+- [ ] Trigger stack with prompt responses or config 
+
 # Remix Grunge Stack
 
 ![The Remix Grunge Stack](https://repository-images.githubusercontent.com/463325363/edae4f5b-1a13-47ea-b90c-c05badc2a700)
